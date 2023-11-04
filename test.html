@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .app {
+            border: 1px solid gold;
+            border-radius: 4px;
+            color: goldenrod;
+            background-color: #ffd70020;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+            font-family: 'Noto Sans TC';
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .homepage {
+            border: 1px solid green;
+            border-radius: 4px;
+            color: green;
+            background-color: #00800020;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+        }
+
+        .todo-list {
+            border: 1px solid darkcyan;
+            border-radius: 4px;
+            color: darkcyan;
+            background-color: #008b8b20;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+        }
+
+        .todo-item {
+            border: 1px solid #0040ff;
+            border-radius: 4px;
+            color: #0040ff;
+            background-color: #0040ff20;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+            width: 200px;
+        }
+
+        .view {
+            flex-grow: 1;
+            border: 1px solid crimson;
+            border-radius: 4px;
+            color: crimson;
+            background-color: #dc143c20;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+            width: 200px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .edit {
+            flex-grow: 1;
+            border: 1px solid darkorange;
+            border-radius: 4px;
+            color: darkorange;
+            background-color: #ffa50020;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+            width: 200px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .add {
+            flex-grow: 1;
+            border: 1px solid darkmagenta;
+            border-radius: 4px;
+            color: darkmagenta;
+            background-color: #8b008b20;
+            padding: .5rem;
+            gap: .5rem;
+            display: inline-flex;
+            flex-direction: column;
+            width: 200px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <span>App</span>
+        <div style="display:flex; gap: 0.5rem">
+            <div class="homepage">
+                <span>Homepage "\"</span>
+                <div class="todo-list">
+                    <span>TodoList</span>
+                    <div class="todo-item"><span>TodoItem</span></div>
+                    <div class="todo-item"><span>TodoItem</span></div>
+                    <div class="todo-item"><span>TodoItem</span></div>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction: column; gap: 0.5rem">
+                <div class="add">
+                    <span>Add "\add"</span>
+                </div>
+                <div class="view">
+                    <span>View "\:id"</span>
+                </div>
+                <div class="edit">
+                    <span>Edit "\:id\edit"</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
